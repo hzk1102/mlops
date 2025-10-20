@@ -25,6 +25,6 @@ jobs:
           python-version: "3.10"
 
       # Bước 3: Chạy các bài kiểm thử (unit tests)
-      # Lệnh 'discover' sẽ tự động tìm các file test (test_*.py) trong thư mục hiện tại
+      # Lệnh 'discover' sẽ tự động tìm các file test (test_*.py) trong thư mục hiện tại 
       - name: Run unit tests
         run: python -m unittest discover
